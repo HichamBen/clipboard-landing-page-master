@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    --strongCyan: hsl(171, 66%, 44%);
+    --lightBlue: hsl(233, 100%, 69%);
+
+    /* Neutral */
+    --darkGrayish: hsl(210, 10%, 33%);
+    --grayishBlue: hsl(201, 11%, 66%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    max-width: 1440px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* same style  */
+h1, h2, h3 {
+    color: var(--darkGrayish);
+}
+
+h1 {
+    margin: 50px auto 0;
+    width: 700px;
+    font-size: 43px;
+    color: var(--darkGrayish);
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    color: var(--grayishBlue);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+main {
+    padding-bottom: 200px;
+}
+
+#keep_track, #access_clipboard, #supercharge, #download_clipboard {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#keep_track p, #access_clipboard p, #supercharge p, #download_clipboard p {
+    margin: auto;
+    max-width: 55%;
+}
+
+/* styling header  */
+header {
+    padding: 100px 0;
+    text-align: center;
+    background-image: url("../images/bg-header-desktop.png");
+    background-size: cover;
+}
+
+header p {
+    margin: 50px auto;
+    width: 700px;
+    font-size: 20px;
+}
+
+button {
+    padding: 15px 35px;
+    font-size: 18px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.ios_btn {
+    background-color: var(--strongCyan);
+    box-shadow: -2px 2px hsl(171, 66%, 35%);
+}
+
+.mac_btn {
+    background-color: var(--lightBlue);
+    box-shadow: -2px 2px hsl(233, 100%, 60%);
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* Stlying main */
+
+/* section keep track */
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-benefits {
+    padding: 35px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* section access_clipboard */
+
+section:nth-child(2) {
+    margin-top: 150px;
+    text-align: center;
+}
+
+section:nth-child(2)>img {
+    margin-top: 15px;
+}
+
+/* section supercharge */
+
+.flex-features {
+    margin: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-features>div {
+    width: 30%;
+    margin: 50px 0 100px;
+    padding: 0 15px;
+}
+
+.flex-features>div div {
+    height: 50px;
+}
+
+.collaborators {
+    margin-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collaborators>img {
+    height: 45px;
+    margin:50px 25px;
+}
+
+/* section download Clipboard */
+
+nav {
+    text-align: center;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: hsla(201, 11%, 66%, 0.2);
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.links {
+    width: 600px;
+    display: grid;
+    grid-template-columns:  repeat(3, 200px);
+    grid-row-gap: 25px;
+    font-size: 18px;
+    color: var(--darkGrayish)
+}
+
+.links > span:hover {
+   color: var(--strongCyan);
+   cursor: pointer;
+}
+
+.socialM {
+    width:150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo.fb {
+    -webkit-mask: url(../images/icon-facebook.svg) no-repeat center;
+    mask: url(../images/icon-facebook.svg) no-repeat center;
+}
+
+.logo.tw {
+    -webkit-mask: url(../images/icon-twitter.svg) no-repeat center;
+    mask: url(../images/icon-twitter.svg) no-repeat center;
+}
+
+.logo.inst {
+    -webkit-mask: url(../images/icon-instagram.svg) no-repeat center;
+    mask: url(../images/icon-instagram.svg) no-repeat center;
+}
+
+.logo:hover {
+    background-color: var(--strongCyan);
+    cursor: pointer;
+}
