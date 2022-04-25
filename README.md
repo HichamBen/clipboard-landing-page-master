@@ -10,7 +10,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://hichamben.github.io/clipboard-landing-page-master/
 
 
 ### Built with
