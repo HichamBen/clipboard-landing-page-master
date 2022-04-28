@@ -59,6 +59,7 @@
     }
 
     .links {
+        width: 370px;
         margin: 50px 0;
         text-align: center;
         grid-template-columns: 200px;
